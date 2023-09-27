@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+p{
+    margin-top: 3vh;
+    margin-bottom: -1vh;
+}
+.fundoPadrão{
+    background-color: #DF8D2D;
+}
+.centraliza{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*header CABEÇALHO*/
+header{
+    position: sticky;
+    top: 0vh;
+}
+
+.caixaIcones{
+    padding: 1%;
+}
+/*header CABEÇALHO*/
+
+/* section FOTO NOME */
+.fotoNome{
+    color: #FFF;
+}
+
+.fotoPerfil{
+    max-width: 50%;
+    border-radius: 1000px;
+}
+/* section FOTO NOME */
+
+/* section FOTO NOME */
+button{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1vh;
+    padding: 2vh;
+}
+
+.botaoMeio{
+    align-self: center;
+    width: 55%;
+}
+/* section FOTO NOME */

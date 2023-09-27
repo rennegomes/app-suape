@@ -1,0 +1,107 @@
+body{
+    background-color:#73B6B6;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*header CABEÇALHO*/
+header{
+    position: sticky;
+    top: 0;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 3vh;
+}
+
+.restaurante{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*header ICONE*/
+.caixaIcones{
+    padding: 1%;
+}
+
+.iconeMenu{
+    text-align: end;
+}
+
+.icone{
+    color: #FFF;
+}
+
+.lupa{
+    color: #000;
+}
+/*header ICONE*/
+
+/*header TITULO*/
+
+.titulo{
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 2vh;
+}
+
+/*header TITULO*/
+
+/*header PESQUISA*/
+.caixaPesquisa{
+    padding: 1%;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin-left: 1%;
+    margin-right: 0.1%;
+}
+
+.btmPesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.textoPesquisa{
+    width: 100%;
+    border: none;
+    background-color: none;
+    outline: 0;
+}
+/*header PESQUISA*/
+
+/*header Filtros*/
+.caixaFiltro{
+    margin-right: 4%;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 4% 0%;
+}
+
+.caixaFiltros{
+    text-align: center;
+    align-items: center;
+}
+/*header Filtros*/
+/*header CABEÇALHO*/
+
+/*section MIN FILTROS*/
+
+.botaoMinFiltro{
+    align-items: center;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0.5vh 0vh;
+    box-shadow: 0px 2px 2px 0px;
+}
+
+/*section MIN FILTROS*/
+
+/*section ESCOLHA*/
+.caixaLogo{
+    width: 100%;
+    padding: 25%;
+    border-radius: 15px;
+    margin: 1vh 0vh;
+}
+/*section ESCOLHA*/
