@@ -1,43 +1,55 @@
 body{
     background-color:#73B6B6;
 }
+/*header CABEÇALHO*/
 
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
+header{
+    position: sticky;
+    top: 0;
+    background-color:#73B6B6;
+}
+
+.caixaIcones{
+    padding: 1%;
+}
+
+.iconeMenu{
+    text-align: end;
 }
 
 a{
+    color: #000;
     text-decoration: none;
-    color: #FFFFFF;
 }
- 
-/*header*/
-.block{
-    position: fixed;
-    width: 100%;
-    max-width: 1500px;
+/*header CABEÇALHO*/
+
+/* header PESQUISA*/
+/* .caixaPesquisa{
+    padding: 1%;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin: 0% 1%;
 }
 
-.cabecalho{
-    padding: 1vh;
-    position: sticky;
-    top: 0vh;
+.btmPesquisa{
     display: flex;
-    justify-content: end;
     align-items: center;
+    text-decoration: none;
 }
-.icon{
-    font-size: 5vh;
-    color: #000;
+
+.textoPesquisa{
     width: 100%;
-    text-align: end;
-}
-/*header*/
+    border: none;
+    background-color: none;
+    outline: 0;
+} */
+/*header PESQUISA */
 
 /*section LOGO*/
-.logoVertical{
+.logoHorizontal{
     max-height: 30vh;
-    margin-top: 5vh;
+    margin-top: -10vh;
+    margin-bottom: -6vh;
 }
 .caixaLogo{
     display: flex;
@@ -45,34 +57,26 @@ a{
 }
 /*section LOGO*/
 
-/*section LOGIN*/
-.caixaLogin{
-    justify-content: center;
-}
-
-.textoLogin{
-    margin-top: 1vh;
-    text-align: center;
+/*section ESCOLHAS*/
+p{
     color: #FFFFFF;
+    position: relative;
+    top: 70%;
 }
 
-.textoInp{
-    text-align: center;
+.escolhas{
+    margin: 5% 1%;
+    margin-top: 0px;
+}
+
+.escolha{
     border-radius: 15px;
-    border: none;
-    width: 100%;
-    padding: 4%;
-    margin-bottom: 2%;
+    padding: 4vh;
+    margin: 1% 0%;
 }
 
-.botaoLogin{
-    background-color: #FF8A00;
-    border: none;
-    border-radius: 30px;
-    width: 50%;
-    padding: 2%;
-    color: #FFFFFF;
+.fotoMiniatura{
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
-/*section LOGIN*/
+/*section ESCOLHAS*/

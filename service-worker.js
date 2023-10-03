@@ -11,7 +11,7 @@ self.addEventListener('install', event => {
         './index.html',
         './ajuda.html',
         './menu.html',
-        './opc.html',
+        './login.html',
         './perfil.html',
         './perfilCom.html',
         './perfilInfo.html',
