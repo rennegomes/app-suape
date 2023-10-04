@@ -27,11 +27,6 @@
         },
 
         {
-            "banner": "icones/Bares.png",
-            "titulo": "BARES"
-        },
-
-        {
             "banner": "icones/Abastecimento.png",
             "titulo": "ABASTECIMENTO"
         }
@@ -78,12 +73,6 @@
     ],
 
     "moda": [
-        {
-        
-        }
-    ],
-
-    "bares": [
         {
         
         }
