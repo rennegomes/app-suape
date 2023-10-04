@@ -58,21 +58,18 @@ a{
 /*section LOGO*/
 
 /*section ESCOLHAS*/
-p{
-    color: #FFFFFF;
-    position: relative;
-    top: 70%;
-}
 
 .escolhas{
-    margin: 5% 1%;
-    margin-top: 0px;
 }
 
 .escolha{
     border-radius: 15px;
-    padding: 4vh;
+    width: 100%;
+    width: 100%;
     margin: 1% 0%;
+    padding: 5vh 0vh;
+    color: #FFF;
+    border-style: none;
 }
 
 .fotoMiniatura{

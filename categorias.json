@@ -1,0 +1,97 @@
+{
+
+    "banners": [
+        {
+            "banner": "icones/Restaurante.jpeg",
+            "titulo": "RESTAURANTES"
+        },
+
+        {
+            "banner": "icones/Estetica.jpg",
+            "titulo": "ESTETICA"
+        },
+
+        {
+            "banner": "icones/Hotel.png",
+            "titulo": "HOTEIS"
+        },
+
+        {
+            "banner": "icones/Mercado.png",
+            "titulo": "MERCADOS"
+        },
+
+        {
+            "banner": "icones/Moda.png",
+            "titulo": "MODA"
+        },
+
+        {
+            "banner": "icones/Bares.png",
+            "titulo": "BARES"
+        },
+
+        {
+            "banner": "icones/Abastecimento.png",
+            "titulo": "ABASTECIMENTO"
+        }
+
+    ],
+    
+    "restaurantes": [
+        {   
+            "id": 0,
+            "nome": "Na Ladeira",
+            "telefone": "(81) 94002-8922",
+            "endereço": "R. Pastor Armando José da Silva, 260  Cabo de Santo Agostinho - PE",
+            "logo": "icones/Restaurantes/logo1.jpg",
+            "latitude": "-8.305023",
+            "longetude": "-35.018602"
+        },
+        {
+            "id": 1,
+            "nome": "Na Plana",
+            "telefone": "(81) 93003-8933",
+            "endereço": "R. Silva, 60  Cabo de Santo Agostinho - PE",
+            "logo": "icones/Restaurantes/logo2.jpg",
+            "latitude": "-8.305060",
+            "longetude": "-35.018420"
+        }
+    ],
+
+
+    "estetica": [
+        {
+        
+        }
+    ],
+
+    "hotel": [
+        {
+        
+        }
+    ],
+    "mercado": [
+        {
+        
+        }
+    ],
+
+    "moda": [
+        {
+        
+        }
+    ],
+
+    "bares": [
+        {
+        
+        }
+    ],
+
+    "abastecimento": [
+        {
+        
+        }
+    ]
+}
