@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/cssRes.css">
 </head>
-<body>
+<body onload="javascript:loadCategoInfo()">
 
     <main>
         <div class="container">
             
             <!--CABECALHO-->
-            <header class="restaurante" style="background-image: url(icones/overlay.png), url(icones/Restaurante.jpeg);">
+            <header>
+                
 
                 <!--ICONES-->
                 <div class="caixaIcones row">
@@ -29,8 +30,10 @@
                         </a> 
                     </div>
                 </div>
-                <!--ICONES-->
 
+                <!--ICONES-->
+<!-- <section class="restaurante" id="categoriaId" style="background-image: url(icones/overlay.png),
+url(icones/Restaurante.jpeg);"></section> -->
                 <!--Titulo-->
                 <div class="row">
                     <div class="titulo col-12">
@@ -41,7 +44,7 @@
 
                 <!--PESQUISA-->
                 <div class="caixaFiltros row">
-                    <div class="col-10">
+                    <div class="col-12">
                         <div class="caixaPesquisa row">
                         <div class="lupaIcon col-1">
                             <a href="#" class="btmPesquisa">
@@ -53,13 +56,13 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <!-- <div class="col-2">
                         <div class="caixaFiltro row">
                             <div class="col-12">
                                 <i class="filtro material-symbols-outlined">filter_list</i>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!--PESQUISA-->
 
@@ -67,7 +70,7 @@
             <!--CABECALHO-->
 
             <!--MIN FILTROS-->
-            <section>
+            <!-- <section>
                 <div class="caixaMinFilto row">
                     <div class="minFiltro col-3">
                             <a class="" href="#">
@@ -90,7 +93,7 @@
                             </a>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!--MIN FILTROS-->
 
             <!--ESCOLHA-->

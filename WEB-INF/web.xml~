@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+<!-- aplicacao de escala de servico -->
+<servlet>
+<servlet-name>ExibeEscala</servlet-name>
+<display-name></display-name>
+<description>Listagem de escala</description>
+<servlet-class>servlets.escweb.ExibeEscala</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>EfetuaLogin</servlet-name>
+<display-name></display-name>
+<description>Listagem de escala</description>
+<servlet-class>servlets.escweb.Logon</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>EditaEscalaSv</servlet-name>
+<display-name></display-name>
+<description>Edição de escala</description>
+<servlet-class>servlets.escweb.EditaEscalaSv</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>PainelEditaEscala</servlet-name>
+<display-name></display-name>
+<description>Edição de escala</description>
+<servlet-class>servlets.escweb.PainelEditaEscala</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>PesquisaNome</servlet-name>
+<display-name></display-name>
+<description>Edição de escala</description>
+<servlet-class>servlets.escweb.ExibeEscalaNome</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>ExcluiMilitar</servlet-name>
+<display-name></display-name>
+<description>Exclusão de Militar</description>
+<servlet-class>servlets.escweb.ExcluiMilitar</servlet-class>
+</servlet>
+
+
+
+<servlet-mapping>
+<servlet-name>ExibeEscala</servlet-name>
+<url-pattern>/ExibeEscala</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>EfetuaLogin</servlet-name>
+<url-pattern>/EfetuaLogin</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>EditaEscalaSv</servlet-name>
+<url-pattern>/EditaEscalaSv</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>PainelEditaEscala</servlet-name>
+<url-pattern>/PainelEditaEscala</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>PesquisaNome</servlet-name>
+<url-pattern>/ExibeEscalaNome</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>ExcluiMilitar</servlet-name>
+<url-pattern>/ExcluiMilitar</url-pattern>
+</servlet-mapping>
+
+<!--aplicacao de escala de servico -->
+</web-app>

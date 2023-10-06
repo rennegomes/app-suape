@@ -16,6 +16,7 @@ header{
 
 .restaurante{
     background-size: cover;
+    padding: 5vh;
     background-repeat: no-repeat;
 }
 

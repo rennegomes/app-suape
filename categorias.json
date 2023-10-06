@@ -36,51 +36,126 @@
     "restaurantes": [
         {   
             "id": 0,
-            "nome": "Na Ladeira",
-            "telefone": "(81) 94002-8922",
-            "endereço": "R. Pastor Armando José da Silva, 260  Cabo de Santo Agostinho - PE",
-            "logo": "icones/Restaurantes/logo1.jpg",
-            "latitude": "-8.305023",
-            "longetude": "-35.018602"
+            "nome": "Chácara Restaurante & Pizzaria",
+            "telefone": "(81) 3771-7353",
+            "endereço": "R. Trapiche, 01 A - Vila Dr. Manoel Clementino, Cabo de Santo Agostinho - PE, 54510-635",
+            "logo": "icones/Restaurantes/ResLogo1.png",
+            "latitude": "-8.278380338652587",
+            "longetude": "-35.023716038468535"
         },
         {
             "id": 1,
-            "nome": "Na Plana",
-            "telefone": "(81) 93003-8933",
-            "endereço": "R. Silva, 60  Cabo de Santo Agostinho - PE",
-            "logo": "icones/Restaurantes/logo2.jpg",
-            "latitude": "-8.305060",
-            "longetude": "-35.018420"
+            "nome": "Restaurante Dona Menina ",
+            "telefone": "(81) 98734-2083",
+            "endereço": "Praça Pescador, 2 - SUAPE, Cabo de Santo Agostinho - PE, 54589-320",
+            "logo": "icones/Restaurantes/ResLogo2.png",
+            "latitude": "-8.35524033848605",
+            "longetude": "-34.95642517979243"
         }
     ],
 
 
     "estetica": [
         {
-        
+            "id": 0,
+            "nome": "Thayse Santos Estética",
+            "telefone": "(81) 99720-5177",
+            "endereço": "R. José Plech Fernandes, 155 - Centro, Cabo de Santo Agostinho - PE, 54510-390",
+            "logo": "icones/Restaurantes/EstLogo1.png",
+            "latitude": "-8.282373706586393",
+            "longetude": "-35.03113266350409"
+        },
+        {
+            "id": 1,
+            "nome": "Janny Makeup",
+            "telefone": "(81) 99781-7106",
+            "endereço": "Praia de Suape - SUAPE, Cabo de Santo Agostinho - PE, 54510-000",
+            "logo": "icones/Restaurantes/EstLogo2.png",
+            "latitude": "-8.353760064327517",
+            "longetude": "-34.954151616263786"
         }
     ],
 
     "hotel": [
         {
-        
+            "id": 0,
+            "nome": "Pousada Águas Marinhas",
+            "telefone": "(81) 3552-0100",
+            "endereço": "Av. Beira Mar, 56 - Gaibu, Cabo de Santo Agostinho - PE, 54505-000",
+            "logo": "icones/Restaurantes/HotLogo1.png",
+            "latitude": "-8.342923727379684",
+            "longetude": "-34.94871469847268"
+        },
+        {
+            "id": 1,
+            "nome": "Nannai Hotel & Spa",
+            "telefone": "(81) 3552-0100",
+            "endereço": "Rodovia PE 09, Ipojuca - PE, 55590-000",
+            "logo": "icones/Restaurantes/HotLogo2.png",
+            "latitude": "-8.433276107268393",
+            "longetude": "-34.98061195123262"
         }
     ],
     "mercado": [
         {
-        
+            "id": 0,
+            "nome": "Mercado Suape",
+            "telefone": "(81) 3590-8100",
+            "endereço": "R. José Miguel de Santana, 57 - SUAPE, Cabo de Santo Agostinho - PE, 54505-970",
+            "logo": "icones/Restaurantes/MerLogo1.png",
+            "latitude": "-8.353344646925706",
+            "longetude": "-34.9558644512008"
+        },
+        {
+            "id": 1,
+            "nome": "Zecka Mercadinho",
+            "telefone": "(81) 994970-5803",
+            "endereço": "Bar do Doído - Loteamento águas comprida Rua de acesso para o, Praia de Suape, Cabo de Santo Agostinho - PE, 54590-000",
+            "logo": "icones/Restaurantes/MerLogo2.png",
+            "latitude": "-8.351617258927401",
+            "longetude": "-34.963997283832896"
         }
     ],
 
     "moda": [
         {
-        
+            "id": 0,
+            "nome": "A Onda Certa",
+            "telefone": "(81) 98763-7856",
+            "endereço": "R. Profa. Maria José Lage, 36 - 2° andar - Gaibu, Cabo de Santo",
+            "logo": "icones/Restaurantes/ModLogo1.png",
+            "latitude": "-8.340293659956576",
+            "longetude": "-34.95122984695048"
+        },
+        {
+            "id": 1,
+            "nome": "Loja do Argentino",
+            "telefone": "(83) 99667-9016",
+            "endereço": "Rua dos Carneiros Calhetas, PE, 54515-070",
+            "logo": "icones/Restaurantes/ModLogo2.png",
+            "latitude": "-8.345102139896962",
+            "longetude": "-34.944944846930966"
         }
     ],
 
     "abastecimento": [
         {
-        
+            "id": 0,
+            "nome": "Posto Portal de Suape",
+            "telefone": "(81) 3527-4590",
+            "endereço": "Cabo de Santo Agostinho, PE",
+            "logo": "icones/Restaurantes/AbsLogo1.png",
+            "latitude": "-8.360483895819907",
+            "longetude": "-35.02081676902485"
+        },
+        {
+            "id": 1,
+            "nome": "Posto Petrobrás",
+            "telefone": "(81) 99490-1073",
+            "endereço": "Rod. PE-60, KM 16 - Rod, Ipojuca - PE, 55590-000",
+            "logo": "icones/Restaurantes/AbsLogo2.png",
+            "latitude": "-8.40041364632033",
+            "longetude": "-35.058188111827064"
         }
     ]
 }

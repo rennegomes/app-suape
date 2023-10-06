@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+<!-- aplicacao de escala de servico -->
+<servlet>
+  <servlet-name>QRCodeServlet</servlet-name>
+  <servlet-class>com.jsos.qr.QRCodeServlet</servlet-class>
+  <init-param>
+   <param-name>dir</param-name>
+   <param-value>/qrcodes</param-value>
+  </init-param>
+    <init-param>
+   <param-name>width</param-name>
+   <param-value>120</param-value>
+  </init-param>
+    <init-param>
+   <param-name>height</param-name>
+   <param-value>120</param-value>
+  </init-param>
+</servlet> 
+
+<servlet-mapping>
+  <servlet-name>QRCodeServlet</servlet-name>
+  <url-pattern>/bin/qrcode</url-pattern>
+</servlet-mapping> 
+
+<error-page>
+   <error-code>500</error-code>  
+   <location>/error.jsp</location>  
+</error-page>
+<error-page>
+   <error-code>404</error-code>  
+   <location>/error.jsp</location>  
+</error-page>
+
+
+<!--aplicacao de escala de servico -->
+</web-app>
