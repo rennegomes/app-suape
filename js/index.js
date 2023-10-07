@@ -76,7 +76,7 @@ let divBanners = document.getElementById("banners");
                 divBanners.innerHTML += `
                 <div class=" col-6" >
                
-                <button class="fotoMiniatura escolha" onclick="abreUrl(${banners.id});" style="background-image: url(${banners.banner});">
+                <button class="fotoMiniatura escolha" onclick="abreUrl(${banners.id});" style="background-image: url(icones/overlay.png), url(${banners.banner});">
                 <strong>${banners.titulo}</strong></button>
 				
                 </div>`
