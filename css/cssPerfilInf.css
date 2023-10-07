@@ -123,3 +123,18 @@ button{
 .aMuda{
     width: 80%;
 }
+
+.rota{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+}
+#telefone{
+    display: flex;
+    justify-content: center;
+}

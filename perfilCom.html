@@ -102,6 +102,7 @@
             </div>
 
             <div class="alinharCaixa fundoPadrão row">
+                
                 <div class="col-6">
                     <p>Segunda-feira<br>Terça-feira<br>Quarta-feira<br>Quinta-feira<br>Sexta-feira<br>Sábado<br>Domingo</p>
                 </div>
@@ -117,7 +118,11 @@
                     <h1>Formas de Pagamento</h1>
                 </div>
             </div>
-            
+            <div class="fundoPadrão row ">
+                <div class="col-12 caixaButaoDesconto">
+                    <a href="qrcode.html" class="aMuda"><button>25% de Desconto!</button></a>
+                </div>
+            </div>
             <div class="alinharCaixa fundoPadrão row">
                 <div class="col-3">
                     <img class="imagemMax" src="icones/elo-logo-3.png" alt="logo elo">
@@ -176,11 +181,28 @@
             map.invalidateSize();
         });
     </script>
-                    <div id="local"></div>
+                    <div id="local">
+
+                    <div id="apareceOmapa">
+
+                    </div>
+
+                    </div>
                 </div>
-                <div class="col-9" id="endereço">
+                <div class="col-12" id="endereço">
                   
                 </div>
+                <div class="col-12" id="mapa">
+
+                </div>
+                <div class="col-12" id="telefone">
+                    
+                </div>
+
+                
+                <!-- <a href="geo:-8.35524033848605,-34.95642517979243">abrir mapa</a> -->
+                <!-- <a href="http://maps.google.com/?q=-8.35524033848605,-34.95642517979243">ABRIR MAPA</a> -->
+               
             </div>
             <!--INFORMALÇÕES PARTE 4-->
 
@@ -199,11 +221,7 @@
         </section>
         <!--INFORMALÇÕES RELEVAMTES-->
         </div>
-        <div class="fundoPadrão row ">
-            <div class="col-12 caixaButaoDesconto">
-                <a href="qrcode.html" class="aMuda"><button>25% de Desconto!</button></a>
-            </div>
-        </div>
+      
     </main>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
